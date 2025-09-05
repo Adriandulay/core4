@@ -126,7 +126,7 @@ $fleetFuel = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="card-body">
         <h5 class="mb-3">Vehicle List</h5>
         <div class="table-responsive">
-            <table id="vehicleTable" class="table table-hover table-striped mb-0 align-middle">
+            <table id="vehicleTable" class="table table-bordered table-hover table-striped mb-0 align-middle">
                 <thead class="table-darkblue">
                     <tr>
                         <th>ID</th>
@@ -180,7 +180,7 @@ $fleetFuel = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="card-body">
         <h5 class="mb-3">Fuel Usage per Vehicle</h5>
         <div class="table-responsive">
-            <table id="fuelTable" class="table table-striped mb-0 align-middle">
+            <table id="fuelTable" class="table table-bordered table-striped mb-0 align-middle">
                 <thead class="table-darkblue">
                     <tr>
                         <th>Plate No.</th>

@@ -1,10 +1,10 @@
 
 <?php
 session_start();
-$host = "localhost";
-$user = "root";
-$password = "";
-$db = "cranecali";
+$host = "core4.cranecali-ms.com";
+$user = "core4_admin";
+$password = "core4";
+$db = "core4_calicms";
 try {
 
   $con = new PDO("mysql:dbname=$db;port=3306;host=$host", 

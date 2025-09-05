@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-$host = "core4.cranecali-ms.com";
+$host = "23.94.230.146";
 $user = "core4_admin";
 $password = "core4";
 $db = "core4_calicms";
